@@ -103,6 +103,7 @@ body {
 
 .hero_bg_box .img-box {
   width: 100%;
+  height: auto;
 }
 
 .hero_bg_box .img-box img {
@@ -438,6 +439,7 @@ a:focus {
 
 .about_section .img_container .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .about_section .detail-box {
@@ -545,6 +547,7 @@ a:focus {
 
 .client_section .box .img-box {
   width: 145px;
+  height: 145px;
 }
 
 .client_section .box .img-box img {
@@ -715,6 +718,7 @@ a:focus {
 
 .contact_bg_box .img-box {
   width: 100%;
+  height: auto;
 }
 
 .contact_bg_box .img-box img {
