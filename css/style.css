@@ -1,8 +1,8 @@
 @import url("font-awesome.min.css");
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
 }
 
 .layout_padding {
@@ -135,6 +135,8 @@ body {
 
 .header_section {
   padding: 0;
+  background-color: #333333; /* Dark background */
+  color: #ffffff; /* White text */
 }
 
 .header_section .container-fluid {
@@ -362,15 +364,15 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #007bff; /* Blue button background */
+  color: #ffffff; /* White text */
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
-  background-color: transparent;
+  background-color: #0056b3; /* Darker blue on hover */
   border-color: #ffffff;
   color: #ffffff;
 }
@@ -378,15 +380,15 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #f1db25;
-  color: #ffffff;
+  background-color: #007bff; /* Blue button background */
+  color: #ffffff; /* White text */
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
-  background-color: transparent;
+  background-color: #0056b3; /* Darker blue on hover */
   border-color: #f1db25;
   color: #f1db25;
 }
