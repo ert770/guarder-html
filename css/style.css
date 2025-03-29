@@ -398,10 +398,13 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .slider_section .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .slider_section .idicator_container {
@@ -552,6 +555,7 @@ a:focus {
 
 .client_section .box .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .client_section .box .detail-box {
@@ -753,10 +757,12 @@ a:focus {
 
 .team_section .box .img-box {
   width: 100%;
+  height: auto;
 }
 
 .team_section .box .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .team_section .box .detail-box {
